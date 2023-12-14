@@ -62,16 +62,16 @@ class GameScene(Scene):
 
         move_direction = Vector2.zero()
 
-        if pygame.key.get_pressed()[pygame.K_UP]:
+        if pygame.key.get_pressed()[pygame.K_w]:
             move_direction += Vector2.up()
-        if pygame.key.get_pressed()[pygame.K_DOWN]:
+        if pygame.key.get_pressed()[pygame.K_s]:
             move_direction += Vector2.down()
-        if pygame.key.get_pressed()[pygame.K_LEFT]:
+        if pygame.key.get_pressed()[pygame.K_a]:
             move_direction += Vector2.left()
-        if pygame.key.get_pressed()[pygame.K_RIGHT]:
+        if pygame.key.get_pressed()[pygame.K_d]:
             move_direction += Vector2.right()
 
-        if pygame.key.get_pressed()[pygame.K_z]:
+        if pygame.key.get_pressed()[pygame.K_SPACE]:
             self.player.shoot()
 
         self.player.move(move_direction)

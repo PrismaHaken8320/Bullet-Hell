@@ -55,18 +55,18 @@ class SelectButtonMatrix:
     def handle_events(self, events: [pygame.event, ...]) -> None:
         for evt in events:
             if evt.type == pygame.KEYDOWN:
-                if evt.key == pygame.K_UP:
+                if evt.key == pygame.K_w:
                     self.move_cursor(0, -1)
                     music_module.sounds[21](.05)
-                if evt.key == pygame.K_DOWN:
+                if evt.key == pygame.K_s:
                     self.move_cursor(0, 1)
                     music_module.sounds[21](.05)
-                if evt.key == pygame.K_LEFT:
+                if evt.key == pygame.K_a:
                     self.move_cursor(-1, 0)
                     music_module.sounds[21](.05)
-                if evt.key == pygame.K_RIGHT:
+                if evt.key == pygame.K_d:
                     self.move_cursor(1, 0)
                     music_module.sounds[21](.05)
-                if evt.key == pygame.K_RETURN or evt.key == pygame.K_z:
+                if evt.key == pygame.K_KP_ENTER or evt.key == pygame.K_x:
                     music_module.sounds[15](.1)
                     self.matrix[self.cursor_pos.y()][self.cursor_pos.x()].trigger()
