@@ -11,6 +11,7 @@ from assets.scripts.classes.hud_and_rendering.Scene import Scene, render_fps
 from assets.scripts.classes.hud_and_rendering.SpriteSheet import SpriteSheet
 from assets.scripts.math_and_data.Vector2 import Vector2
 from assets.scripts.classes.game_logic.AttackFunctions import AttackFunctions
+from assets.scripts.scenes import Pausescreen
 
 from assets.scripts.math_and_data.enviroment import *
 
@@ -70,6 +71,10 @@ class GameScene(Scene):
             move_direction += Vector2.left()
         if pygame.key.get_pressed()[pygame.K_d]:
             move_direction += Vector2.right()
+        
+        #if Escape is pressed, switch to pausescreen
+        if pygame.key.get_pressed()[K_ESCAPE]:
+            self.switch_to_pause()
 
         if pygame.key.get_pressed()[pygame.K_SPACE]:
             self.player.shoot()
@@ -274,3 +279,8 @@ class GameScene(Scene):
         self.bullet_group.empty()
         self.bullet_group.empty()
         self.hud_group.empty()
+
+    #Aufrufen des pausescreens
+    def switch_to_pause(self):
+        from assets.scripts.scenes.Pausescreen import PauseScene
+        self.switch_to_scene(PauseScene())
