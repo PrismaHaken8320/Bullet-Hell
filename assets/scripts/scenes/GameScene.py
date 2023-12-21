@@ -11,7 +11,7 @@ from assets.scripts.classes.hud_and_rendering.Scene import Scene, render_fps
 from assets.scripts.classes.hud_and_rendering.SpriteSheet import SpriteSheet
 from assets.scripts.math_and_data.Vector2 import Vector2
 from assets.scripts.classes.game_logic.AttackFunctions import AttackFunctions
-from assets.scripts.scenes import Pausescreen
+
 
 from assets.scripts.math_and_data.enviroment import *
 
@@ -73,7 +73,7 @@ class GameScene(Scene):
             move_direction += Vector2.right()
         
         #if Escape is pressed, switch to pausescreen
-        if pygame.key.get_pressed()[K_ESCAPE]:
+        if pygame.key.get_pressed()[K_y]:
             self.switch_to_pause()
 
         if pygame.key.get_pressed()[pygame.K_SPACE]:
