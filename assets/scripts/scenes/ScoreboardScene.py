@@ -86,7 +86,7 @@ class ScoreboardScene(Scene):
             if evt.type == QUIT:
                 pygame.quit()
             if evt.type == pygame.KEYDOWN:
-                if evt.key == K_x:
+                if evt.key == K_y:
                     music_module.sounds[0](.1)
                     if self.player is not None:
                         self.delete_letter()

@@ -9,8 +9,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -35,8 +35,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -61,8 +61,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -86,8 +86,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -111,8 +111,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -136,8 +136,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -879,8 +879,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -904,8 +904,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -929,8 +929,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -956,8 +956,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -981,8 +981,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -1006,8 +1006,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -1754,8 +1754,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -1782,8 +1782,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -1810,8 +1810,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,
@@ -1838,8 +1838,8 @@
       ],
       "speed": 1,
       "sprite": {
-        "size": [24, 19],
-        "path": ["assets", "sprites", "entities", "fairy_0.png"]
+        "size": [63, 63],
+        "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
       },
       "collider": {
         "radius": 15,

@@ -75,7 +75,8 @@ class Enemy(Entity):
             self.death()
 
     def update(self) -> None:
-        self.change_sprite_timer += 1 * 60 * self.scene.delta_time
+        #sets the speed of the changing of sprites for the enemy animation
+        self.change_sprite_timer += 0.5 * 60 * self.scene.delta_time
 
         if self.attack_data and self.attack_count < len(self.attack_data):
             if self.t >= self.attack_data[self.attack_count][1]:

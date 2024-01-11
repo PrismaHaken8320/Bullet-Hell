@@ -75,7 +75,8 @@ class Player(Entity):
                 del item
 
         self.attack_timer += 2.5 * 60 * delta_time
-        self.change_sprite_timer += 1 * 60 * delta_time
+        #changes speed of sprite changes for animation from character
+        self.change_sprite_timer += 0.5 * 60 * delta_time
         self.change_hitbox_sprite_timer += 1 * 60 * delta_time
         self.next_sprite(5)
 

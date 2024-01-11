@@ -72,7 +72,7 @@ class GameScene(Scene):
         if pygame.key.get_pressed()[pygame.K_d]:
             move_direction += Vector2.right()
         
-        #if Escape is pressed, switch to pausescreen
+        #if Y is pressed, switch to pausescreen
         if pygame.key.get_pressed()[K_y]:
             self.switch_to_pause()
 
