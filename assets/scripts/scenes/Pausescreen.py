@@ -24,7 +24,7 @@ class PauseScene(Scene):
         ).convert_alpha()
         self.font = pygame.font.Font(path_join("assets", "fonts", "DFPPOPCorn-W12.ttf"), 45)
 
-        self.matrix = [[["Continue", self.switch_to_game]], [["Retry", self.retry_game]], [["Back to Title", self.switch_to_titlescene]]]
+        self.matrix = [[["Retry", self.retry_game]], [["Back to Title", self.switch_to_titlescene]]]
         self.ButtonMatrix = SelectButtonMatrix(Vector2(WIDTH/2 - 150, HEIGHT/2 -150), self.matrix, self.font, (100, 100, 100), (255, 50, 40))
     
 
@@ -47,15 +47,15 @@ class PauseScene(Scene):
     
     # Switch back to game (not yet possible)
     
-    def switch_to_game(self):
-        from assets.scripts.scenes.GameScene import GameScene
-        self.switch_to_scene(GameScene())
+    # def switch_to_game(self):
+    #     from assets.scripts.scenes.GameScene import GameScene
+    #     self.switch_to_scene(GameScene())
     
     
     # retry game
     def retry_game(self):
-        from assets.scripts.scenes.ScoreboardScene import ScoreboardScene
-        self.switch_to_scene(ScoreboardScene())
+        from assets.scripts.scenes.GameScene import GameScene
+        self.switch_to_scene(GameScene())
 
     #quit game
     def switch_to_titlescene(self):

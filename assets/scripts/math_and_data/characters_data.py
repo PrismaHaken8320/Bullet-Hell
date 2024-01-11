@@ -31,7 +31,7 @@ characters = {
     0: {
         "name": "Marisa",
         "speed": 370,
-        "sprite-sheet": SpriteSheet(path_join("assets", "sprites", "entities", "marisa_forward.png")).crop((25, 50)),
+        "sprite-sheet": SpriteSheet(path_join("assets", "sprites", "entities", "maribel_forward.png")).crop((25, 50)),
         "bullet-sprite-sheet": SpriteSheet(path_join("assets", "sprites", "projectiles_and_items", "marisa_bullet.png")).crop((32, 32)),
         "attack-function": marisa_base_attack
     },
