@@ -1,0 +1,25 @@
+changelog:
+
+change 1:
+- changing movement keys from arrow keys to wasd
+- changing key to shoot bullets from z tp spacebar
+
+change 2:
+- adding the PauseScreen.py file and making it accesible by pressing the escape key while playing the game
+- (right now it only crashes the game, as the file doesn't have the necessary functions to work properly)
+
+change 3:
+- adding adding to the pausescreen (quit and retry)
+- (tried adding a retrun to game button, but had to scratch the idea, because no progress is saved right now)
+
+change 4:
+- set the functions for the pausescreen, so now you can quit to menu or retry the level
+
+change 5:
+- changed the attacks of the first 6 enemies, so the level would have an easier start
+
+change 6:
+- changed sprite of the fairy enemy
+
+change 7:
+- added a new level, so that it would be easier to test things and to not make the game lag that much
