@@ -1,0 +1,612 @@
+{
+    "music": "",
+    "length": 30,
+    "enemies": [
+        {
+            "start_position": [300,700],
+            "trajectory": [
+              [300, 600], [300, 400], [300, 200], [300, 0]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 40,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random",1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 4
+        },
+        {
+            "start_position": [300,700],
+            "trajectory": [
+              [300, 600], [300, 400], [300, 200], [300, 0]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 40,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 4.5
+        },
+        {
+            "start_position": [300,700],
+            "trajectory": [
+              [300, 600], [300, 400], [300, 200], [300, 0]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 40,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 5
+        },
+        {
+            "start_position": [300,700],
+            "trajectory": [
+              [300, 600], [300, 400], [300, 200], [300, 0]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 40,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 5.5
+        },
+
+        {
+            "start_position": [600,100],
+            "trajectory": [
+              [450, 100], [300, 100], [150, 100], [0, 100]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 8
+        },
+        {
+            "start_position": [0,200],
+            "trajectory": [
+              [150, 200], [300, 200], [450, 200], [600, 200]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 8
+        },
+        {
+            "start_position": [600,100],
+            "trajectory": [
+              [450, 100], [300, 100], [150, 100], [0, 100]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 9
+        },
+        {
+            "start_position": [0,200],
+            "trajectory": [
+              [150, 200], [300, 200], [450, 200], [600, 200]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 9
+        },
+        {
+            "start_position": [600,100],
+            "trajectory": [
+              [450, 100], [300, 100], [150, 100], [0, 100]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 10
+        },
+        {
+            "start_position": [0,200],
+            "trajectory": [
+              [150, 200], [300, 200], [450, 200], [600, 200]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 10,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 1, 40, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"],16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 10
+        },
+
+        {
+            "start_position": [605, 300],
+            "trajectory": [
+              [455, 300], [260, 300], [368, 85], [600,-85]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 14
+        },
+        {
+            "start_position": [-113, 278],
+            "trajectory": [
+              [112, 320], [352, 270], [156, 31], [-81,-106]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 14
+        },
+        {
+            "start_position": [605, 300],
+            "trajectory": [
+              [455, 300], [260, 300], [368, 85], [600,-85]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 14.5
+        },
+        {
+            "start_position": [-113, 278],
+            "trajectory": [
+              [112, 320], [352, 270], [156, 31], [-81,-106]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 14.5
+        },
+        {
+            "start_position": [605, 300],
+            "trajectory": [
+              [455, 300], [260, 300], [368, 85], [600,-85]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 15
+        },
+        {
+            "start_position": [-113, 278],
+            "trajectory": [
+              [112, 320], [352, 270], [156, 31], [-81,-106]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 15
+        },
+        {
+            "start_position": [605, 300],
+            "trajectory": [
+              [455, 300], [260, 300], [368, 85], [600,-85]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 15.5
+        },
+        {
+            "start_position": [-113, 278],
+            "trajectory": [
+              [112, 320], [352, 270], [156, 31], [-81,-106]
+            ],
+            "speed": 2,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Ice_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 16,
+              "offset": [0, 0]
+            },
+            "hp": 1,
+            "attacks": [
+              ["wide_cone", 3, 4, [["assets", "sprites", "projectiles_and_items", "ellipse_bullet_0.png"], 24, 24, 6, [0, 0]], "player",  150, 10, 1, 0.75, 0]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "power_large"],
+              "probabilities": [50, 35, 15]
+            },
+            "clear_on_death": false,
+            "time": 15.5
+        },
+
+
+
+        {
+            "start_position": [50, 0],
+            "trajectory": [
+              [50, 50], [50, 50], [50, 50], [50, 50]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_small", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 20
+          },
+          {
+            "start_position": [550, 0],
+            "trajectory": [
+              [550, 50], [550, 50], [550, 50], [650, 150]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_large", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 20
+          },
+      
+          {
+            "start_position": [500, 0],
+            "trajectory": [
+              [500, 120], [500, 120], [500, 120], [600, 350]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_large", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 21
+          },
+          {
+            "start_position": [100, 0],
+            "trajectory": [
+              [100, 120], [100, 120], [100, 120], [-50, 350]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_large", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 21
+          },
+          {
+            "start_position": [180, 0],
+            "trajectory": [
+              [180, 200], [180, 200], [180, 200], [170,399], [160, 598], [150, 797]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_large", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 22
+          },
+          {
+            "start_position": [420, 0],
+            "trajectory": [
+              [420, 200], [420, 200], [420, 200], [361,391], [302, 582], [243, 773]
+            ],
+            "speed": 1,
+            "sprite": {
+              "size": [63, 63],
+              "path": ["assets", "sprites", "entities", "Nature_Spirit_all.png"]
+            },
+            "collider": {
+              "radius": 15,
+              "offset": [0, 0]
+            },
+            "hp": 10,
+            "attacks": [
+              ["long_random", 3, 20, [["assets", "sprites", "projectiles_and_items", "kunai_0.png"], 16, 16, 4, [0, 0]], 150, 1, 0.06, 0, true]
+            ],
+            "drop": {
+              "list": ["points", "power_large", "nothing"],
+              "probabilities": [40, 30, 30]
+            },
+            "clear_on_death": false,
+            "time": 22
+          }
+    ]
+  }

@@ -50,7 +50,7 @@ class GameScene(Scene):
         self.effect_group = pygame.sprite.RenderPlain()
 
         self.time = 0
-        self.level = json.load(open(path_join("assets", "levels", "level_1.json")))
+        self.level = json.load(open(path_join("assets", "levels", "level_2.json")))
         self.level_enemies = sorted(self.level["enemies"], key=lambda enemy: enemy["time"])
         self.enemy_count = 0
 
